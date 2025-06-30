@@ -4,7 +4,7 @@ let b=document.getElementsByClassName("box")
 function getcolor() {
     let a = Math.floor(Math.random() * 256);
     let b1 = Math.floor(Math.random() * 256);
-    let c = Math.floor(Math.random() * 256);
+    let c = Math.ceil(Math.random()*256)
     return `rgb(${a}, ${b1}, ${c})`;
 }
 
